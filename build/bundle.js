@@ -60,7 +60,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(172);
+	__webpack_require__(173);
 
 	_reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.getElementById('root'));
 
@@ -19717,7 +19717,7 @@
 
 	var _challenge2 = _interopRequireDefault(_challenge);
 
-	var _schedule = __webpack_require__(171);
+	var _schedule = __webpack_require__(172);
 
 	var _schedule2 = _interopRequireDefault(_schedule);
 
@@ -20369,6 +20369,11 @@
 						),
 						_react2.default.createElement(
 							"div",
+							{ className: "challenge-img-div" },
+							_react2.default.createElement("img", { className: "challenge-header-img", src: __webpack_require__(171) })
+						),
+						_react2.default.createElement(
+							"div",
 							{ className: "container about-div-list" },
 							_react2.default.createElement(
 								"h3",
@@ -20388,6 +20393,12 @@
 
 /***/ },
 /* 171 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "11c4e0fcba310197cfe493569506243a.png";
+
+/***/ },
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20497,16 +20508,16 @@
 	exports.default = Schedule;
 
 /***/ },
-/* 172 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(173);
+	var content = __webpack_require__(174);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(177)(content, {});
+	var update = __webpack_require__(178)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20523,21 +20534,21 @@
 	}
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(174)();
+	exports = module.exports = __webpack_require__(175)();
 	// imports
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Bubblegum+Sans|Capriola|Frijole);", ""]);
 
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: Frijole;\n  font-weight: 300;\n  font-style: normal;\n}\n@font-face {\n  font-family: Bubblegum Sans;\n  font-weight: 400;\n  font-style: normal;\n}\n@font-face {\n  font-family: Capriola;\n  font-weight: 400;\n  font-style: normal;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nvideo {\n  display: inline-block;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden] {\n  display: none;\n}\nhtml {\n  font-family: sans-serif;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n}\na:focus {\n  outline: thin dotted;\n}\na:active,\na:hover {\n  outline: 0;\n}\nh1 {\n  font-size: 2em;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: 700;\n}\ndfn {\n  font-style: italic;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, serif;\n  font-size: 1em;\n}\npre {\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\nq {\n  quotes: 2 1C 2 1D 2 18 2 19;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  margin: 0;\n}\nbutton,\ninput {\n  line-height: normal;\n}\nbutton,\nhtml input[type=button],\ninput[type=reset],\ninput[type=submit] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\ninput[disabled] {\n  cursor: default;\n}\ninput[type=checkbox],\ninput[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=search] {\n  -webkit-appearance: textfield;\n  -moz-box-sizing: content-box;\n  -webkit-box-sizing: content-box;\n  box-sizing: content-box;\n}\ninput[type=search]::-webkit-search-cancel-button,\ninput[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\ntextarea {\n  overflow: auto;\n  vertical-align: top;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\nbody,\nfigure {\n  margin: 0;\n}\nlegend,\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n.clearfix:after {\n  visibility: hidden;\n  display: block;\n  font-size: 0;\n  content: \" \";\n  clear: both;\n  height: 0;\n}\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml,\nbody,\n#root,\n.app {\n  font-size: 100%;\n  font-family: 'Capriola';\n  color: #fff;\n}\n.landing-div {\n  position: relative;\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  color: #fff;\n}\n.one-liner {\n  font-size: 3em;\n}\n.header-date {\n  font-size: 225%;\n}\n.limited-seats {\n  font-size: 200%;\n}\n.header-registration-dollar {\n  font-size: 400%;\n  color: #facb74;\n}\n.apply-button {\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  font-size: 2em !important;\n}\n.description-header,\n.about-div-header,\n.contact-header,\n.challenge-header,\n.schedule-header {\n  text-align: center;\n  font-size: 350%;\n}\n.description-paragraph {\n  font-size: 120%;\n}\n.contact-div,\n.challenge-div,\n.description-paragraph,\n.footer-div {\n  text-align: center;\n}\n.challenge-div,\n.schedule-div {\n  color: #000;\n}\nhtml,\nbody,\n#root,\n.app {\n  height: 100%;\n  width: 100%;\n}\n.padder {\n  padding: 10%;\n}\n.navbar {\n  margin-bottom: 0px !important;\n}\n.brand-logo {\n  max-width: 100px !important;\n  padding: 15px 15px;\n  float: left;\n}\n.landing-div {\n  background-image: url(" + __webpack_require__(175) + ");\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  height: 100vh;\n  padding-bottom: 10px;\n}\n@media only screen and (max-width: 480px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n@media only screen and (max-width: 700px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n.navbar-custom {\n  background-color: none;\n  border-color: none;\n  background-image: none;\n  background-repeat: no-repeat;\n}\n.femhack-header-img {\n  display: block;\n  margin: 0 auto;\n  height: 40%;\n  width: 60%;\n}\n.header-registration {\n  text-align: center;\n}\n.description-div {\n  background-color: #145e79;\n}\n.about-div {\n  background-image: url(" + __webpack_require__(176) + ");\n  background-repeat: no-repeat;\n  background-size: auto 100%;\n  text-align: center;\n}\n.contact-div {\n  background-color: #008593;\n  color: #fff;\n}\n.contact-info {\n  padding-top: 5%;\n}\n.footer-div {\n  background-color: #000;\n  padding-top: 10px;\n}\n.text-muted {\n  padding-top: 8px;\n}\n.btn-warning {\n  background-color: #fbcd73 !important;\n  border-color: #fbcd73 !important;\n}\n.schedule-content {\n  padding-left: 10%;\n}\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: Frijole;\n  font-weight: 300;\n  font-style: normal;\n}\n@font-face {\n  font-family: Bubblegum Sans;\n  font-weight: 400;\n  font-style: normal;\n}\n@font-face {\n  font-family: Capriola;\n  font-weight: 400;\n  font-style: normal;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nvideo {\n  display: inline-block;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden] {\n  display: none;\n}\nhtml {\n  font-family: sans-serif;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n}\na:focus {\n  outline: thin dotted;\n}\na:active,\na:hover {\n  outline: 0;\n}\nh1 {\n  font-size: 2em;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: 700;\n}\ndfn {\n  font-style: italic;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, serif;\n  font-size: 1em;\n}\npre {\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\nq {\n  quotes: 2 1C 2 1D 2 18 2 19;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  margin: 0;\n}\nbutton,\ninput {\n  line-height: normal;\n}\nbutton,\nhtml input[type=button],\ninput[type=reset],\ninput[type=submit] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\ninput[disabled] {\n  cursor: default;\n}\ninput[type=checkbox],\ninput[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=search] {\n  -webkit-appearance: textfield;\n  -moz-box-sizing: content-box;\n  -webkit-box-sizing: content-box;\n  box-sizing: content-box;\n}\ninput[type=search]::-webkit-search-cancel-button,\ninput[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\ntextarea {\n  overflow: auto;\n  vertical-align: top;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\nbody,\nfigure {\n  margin: 0;\n}\nlegend,\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n.clearfix:after {\n  visibility: hidden;\n  display: block;\n  font-size: 0;\n  content: \" \";\n  clear: both;\n  height: 0;\n}\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml,\nbody,\n#root,\n.app {\n  font-size: 100%;\n  font-family: 'Capriola';\n  color: #fff;\n}\n.landing-div {\n  position: relative;\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  color: #fff;\n}\n.one-liner {\n  font-size: 3em;\n}\n.header-date {\n  font-size: 225%;\n}\n.limited-seats {\n  font-size: 200%;\n}\n.header-registration-dollar {\n  font-size: 400%;\n  color: #facb74;\n}\n.apply-button {\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  font-size: 2em !important;\n}\n.description-header,\n.about-div-header,\n.contact-header,\n.challenge-header,\n.schedule-header {\n  text-align: center;\n  font-size: 350%;\n}\n.description-paragraph {\n  font-size: 120%;\n}\n.contact-div,\n.challenge-div,\n.description-paragraph,\n.footer-div {\n  text-align: center;\n}\n.challenge-div,\n.schedule-div {\n  color: #000;\n}\nhtml,\nbody,\n#root,\n.app {\n  height: 100%;\n  width: 100%;\n}\n.padder {\n  padding: 10%;\n}\n.navbar {\n  margin-bottom: 0px !important;\n}\n.brand-logo {\n  max-width: 100px !important;\n  padding: 15px 15px;\n  float: left;\n}\n.landing-div {\n  background-image: url(" + __webpack_require__(176) + ");\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  height: 100vh;\n  padding-bottom: 10px;\n}\n@media only screen and (max-width: 480px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n@media only screen and (max-width: 700px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n.navbar-custom {\n  background-color: none;\n  border-color: none;\n  background-image: none;\n  background-repeat: no-repeat;\n}\n.femhack-header-img {\n  display: block;\n  margin: 0 auto;\n  height: 40%;\n  width: 60%;\n}\n.challenge-header-img,\ndisplay: block,\nmargin-left: auto,\nmargin-right: auto,\n.header-registration {\n  text-align: center;\n}\n.description-div {\n  background-color: #145e79;\n}\n.about-div {\n  background-image: url(" + __webpack_require__(177) + ");\n  background-repeat: no-repeat;\n  background-size: auto 100%;\n  text-align: center;\n}\n.challenge-div,\nbackground-color #F8A180,\n.contact-div {\n  background-color: #008593;\n  color: #fff;\n}\n.contact-info {\n  padding-top: 5%;\n}\n.footer-div {\n  background-color: #000;\n  padding-top: 10px;\n}\n.text-muted {\n  padding-top: 8px;\n}\n.btn-warning {\n  background-color: #fbcd73 !important;\n  border-color: #fbcd73 !important;\n}\n.schedule-div,\nbackground-color #F8A180,\n.schedule-content {\n  padding-left: 10%;\n}\n.challenge-header-img {\n  width: 40%;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports) {
 
 	/*
@@ -20593,19 +20604,19 @@
 
 
 /***/ },
-/* 175 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "049d9d2af72af4a6ef4afaf579eea658.jpg";
 
 /***/ },
-/* 176 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "3f4e13c384a17e9f06a3394a5ff1c27e.jpg";
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
